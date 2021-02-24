@@ -1,0 +1,18 @@
+.home .el-tabs__header {
+    margin: 0;
+}
+
+.el-tabs__nav .el-tabs__item:nth-child(1) span {
+    display: none;
+}
+
+.home .el-tabs--card>.el-tabs__header{
+    border: none;
+}
+.home .el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border-left: none;
+}
+/* 主体页面滚动条下方处理 */
+.el-main .el-scrollbar__wrap {
+    overflow-x: hidden !important;
+}
